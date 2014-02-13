@@ -1,0 +1,25 @@
+{
+  "name": "phantomtask-node",
+  "version": "0.0.1",
+  "description": "Phantomtask wrapper for nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alxarch/phantomtask-node.git"
+  },
+  "author": "Alexandros Sigalas",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/alxarch/phantomtask-node/issues"
+  },
+  "homepage": "https://github.com/alxarch/phantomtask-node",
+  "dependencies": {
+    "string": "~1.8.0",
+    "lodash": "~2.4.1",
+    "phantomjs": "~1.9.7-1",
+    "phantomtask": "~0.1.0"
+  }
+}
