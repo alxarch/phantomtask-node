@@ -1,9 +1,10 @@
 {
   "name": "phantomtask-node",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Phantomtask wrapper for nodejs.",
-  "main": "index.js",
+  "main": "lib/phantomtask.js",
   "scripts": {
+	"prepublish": "grunt build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,9 @@
     "lodash": "~2.4.1",
     "phantomjs": "~1.9.7-1",
     "phantomtask": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.10.0"
   }
 }
