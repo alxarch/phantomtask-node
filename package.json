@@ -1,6 +1,6 @@
 {
   "name": "phantomtask-node",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Phantomtask wrapper for nodejs.",
   "main": "lib/phantomtask.js",
   "scripts": {
