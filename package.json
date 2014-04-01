@@ -1,6 +1,6 @@
 {
   "name": "phantomtask-node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Phantomtask wrapper for nodejs.",
   "main": "lib/phantomtask.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "string": "~1.8.0",
     "lodash": "~2.4.1",
     "phantomjs": "~1.9.7-1",
-    "phantomtask": "~0.3.0"
+    "phantomtask": "~0.3.1"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
